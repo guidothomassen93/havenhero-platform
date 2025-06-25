@@ -1,0 +1,57 @@
+# HavenHero Platform .gitignore
+
+# Environment & Config
+.env
+.env.local
+.env.production
+backend/config/config.php
+
+# Logs
+*.log
+logs/
+backend/logs/
+
+# Database
+*.sql.bak
+database_backup/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Uploads
+uploads/
+backend/uploads/
+frontend/assets/uploads/
+
+# Cache
+cache/
+tmp/
+temp/
+
+# PHP
+composer.phar
+/vendor/
+
+# Package managers
+package-lock.json
+yarn.lock
